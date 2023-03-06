@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="zh" dir="ltr">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  <title>Brecen | Design</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="theme-color" content="#000000">
+  <link rel="mask-icon" href="img/ICON/moqi.svg" color="#FFFFFF">
+  <link rel="shortcut icon" href="img/ICON/moqi-32.ico" type="image/x-icon">
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0" />-->
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0"/>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vant@2.9/lib/vant.min.js"></script>
+  <script type="js/fonts.js"></script>
+  <meta name="keywords" content="末祁,游戏赛事,腾讯设计,H5,动画,svg,UE4,UE5,unrealengine,brecen,虚拟舞台,创意,平面设计,UI,UI设计,网页设计,字体设计,logo设计,版式设计,前端技术,视觉设计,品牌设计,产品设计,市场研究,UX设计">
+  <meta itemprop="description" content="末祁 Brecen 的个人Web页，长期处于游戏行业，为游戏赛事提供KV创意，赛事栏包，动态指导，虚拟舞台，UE技术等">
+  <!-- 社交分享 -->
+  <meta itemprop="name" content="Brecen | Design">
+  <meta name="description" content="末祁 Brecen 的个人Web页，长期处于游戏行业，为游戏赛事提供KV创意，赛事栏包，动态指导，虚拟舞台，UE技术等">
+  <meta itemprop="image" content="">
+  <!-- 社交分享 -->
+  <!-- css -->
+  <link rel="stylesheet" href="css/common.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vant@2.9/lib/index.css" />
+  <link rel="stylesheet" href="css/brands.css">
+  <!-- css -->
+</head>
+
+<body style="font-family:undefined;font-weight:400;font-style:normal;" id="boxAll">
+  <div id="app"></div>
+  <template id="details">
+    <div class="ticket-details">
+
+
+      <!-- 头 -->
+      <header>
+        <div class="head-normal">
+          <span class="logo"> <img src="img/LOGO/brecen.svg" title="brecen"> </span>
+          <ul class="head-nav">
+
+
+            <li>
+              <span class="head-nav-title">Home</span>
+            </li>
+
+            <li>
+              <span class="head-nav-title">Works</span>
+            </li>
+
+            <li>
+              <span class="head-nav-title">UE</span>
+            </li>
+
+            <li>
+              <span class="head-nav-title">About</span>
+            </li>
+          </ul>
+          <!--
+          <span class="logo-wechat"> <img src="img/ICON/topWechat.svg"> </span>
+          <span class="logo-search"> <img src="img/ICON/search.svg"> </span>
+          -->
+        </div>
+      </header>
+
+      <!-- 第一部分 -->
+      <div class="content">
+        <!-- 模块1 -->
+        <section>
+          <div class="section0">
+            <dl>
+              <dd class="item0">
+                <div style="margin-left: 20px;">
+                  <img src="img/PIC/SVG/slogan1.svg" class="slogan1">
+                  <img src="img/PIC/SVG/slogan2.svg" class="slogan2">
+                  <div class="btnBorder top"><a href="#" target="blank">Creative connect </a> </div>
+                  <div class="text-top" style="font-family: undefined;font-weight: 500;font-style: normal;">
+                    <div>游戏赛场，品牌，超大规模建筑VI <br>
+                      E-sports, Brand, Super dimension VI</div>
+                    <div>
+                      坚持“品牌自信”和“功能至上” <br>
+                      User Centered Design</div>
+                  </div>
+                </div>
+                <div class="my-swipe">
+                  <div class="left-arr" data-index="0" @click="onChange"></div>
+                  <!-- 轮播图 -->
+                  <van-swipe :autoplay="5000" indicator-color="red" ref="swiper">
+                    <van-swipe-item><img src="img/PIC/banner (1).png" alt="">
+                    </van-swipe-item>
+                    <van-swipe-item><img src="img/PIC/banner (2).png" alt="">
+                    </van-swipe-item>
+                    <van-swipe-item><img src="img/PIC/banner (3).png" alt="">
+                    </van-swipe-item>
+                    <van-swipe-item><img src="img/PIC/banner (4).png" alt="">
+                    </van-swipe-item>
+                    <van-swipe-item><img src="img/PIC/banner (5).png" alt="">
+                    </van-swipe-item>
+                  </van-swipe>
+                  <div class="right-arr" data-index="1" @click="onChange"></div>
+                </div>
+              </dd>
+            </dl>
+          </div>
+        </section>
+        <!-- 以前 -->
+        <section>
+          <div class="item-title">
+            <span style="font-family: undefined;font-weight: 500;font-style: normal;">以前的活动</span>
+            <span class="btnBorder"><a href="#" target="blank"> More detail</a></span>
+          </div>
+          <div class="section1-nav">
+            <div>
+              <a href="https://file.brecen.com/resumeOBJ/220611-HuYaPanghubei.pdf" target="_blank">
+                <img src="img/PIC/pic (1).png">
+              </a>
+              <span>荒野乱斗-虎牙平台赛</span>
+            </div>
+            <div>
+              <img src="img/PIC/pic (2).png">
+              <span>炉果的事-暴雪炉石综艺节目</span>
+            </div>
+            <div>
+              <img src="img/PIC/pic (3).png">
+              <span>逆战策划面对面-虎牙直转播</span>
+            </div>
+          </div>
+        </section>
+        <!-- 近期 -->
+        <section>
+          <div style="font-family: undefined;font-weight: 500;font-style: normal;">近期的项目总结</div>
+          <div class="section2-nav">
+            <div>
+              <div> <img src="img/PIC/before_1.png" alt=""></div>
+              <div class="item-text">
+                <div>2020-07-31 &nbsp;|&nbsp; 项目执行日期</div>
+                <div class="text-2">2020 ChinaJoy 暴雪展台</div>
+                <div>作为热度颇高的游戏厂商之一，本次展台也包括了多款大IP，也有现场对决比赛例如望先锋、魔兽争霸、星际争霸等等</div>
+                <div class="btnBorder white"><a href="#" target="blank"> More detail</a></div>
+              </div>
+            </div>
+            <div>
+              <div> <img src="img/PIC/before_2.png" alt=""></div>
+              <div class="item-text">
+                <div>2021-11-05 &nbsp;|&nbsp; 项目执行日期</div>
+                <div class="text-2">2021京东电竞电音节</div>
+                <div>京东推出7天内以游戏为灵感创作单曲的挑战，吴莫愁、银河系乐团、litterzy三组潮流音乐人，取王者荣耀、和平精英、英雄联盟等电竞灵感晚会
+                </div>
+                <div class="btnBorder white"><a href="#" target="blank"> More detail</a></div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- 视频 -->
+      <div class="video-normal">
+        <div class="video-nav">
+          <div>Unreal Engine</div>
+          <div>使用UE制作赛事场景</div>
+          <div>赛事场景，CG冲呀~</div>
+          <div>更灵活的动态场景，更统一的项目资源管理</div>
+        </div>
+        <video src="img/vid/KDAMoreTakeOver_1.mp4" type="video/mp4" loop autoplay="autoplay" muted></video>
+      </div>
+      <!-- 底部 -->
+      <footer>
+        <div>甲方爸爸们</div>
+        <div>
+          <ul class="logo-nav">
+            <li class="CoopLogo">
+              <!--bns-->
+              <a  class="CoopLogo" href="https://bns.qq.com/" target="blank" title="剑灵 中国"></a>
+            </li>
+
+            <li class="CoopLogo">
+              <!--wuxia-->
+              <a href="https://wuxia.qq.com/main.shtml" title="天刀端游"></a>
+            </li>
+
+            <li class="CoopLogo">
+              <!--pvp-->
+              <a href="https://pvp.qq.com/" target="blank" title="王者荣耀赛事"> </a>
+            </li>
+
+            <li class="CoopLogo">
+              <!--huya-->
+              <a href="https://www.huya.com/act/pc/contactUs/#about" target="blank" title="欢聚时代"> </a>
+            </li>
+
+            <li class="CoopLogo">
+              <!--baoxue-->
+              <a href="https://www.blizzardgames.cn/zh-cn/" target="blank" title="暴雪 中国"></a>
+            </li>
+
+            <li class="CoopLogo">
+              <!--rog-->
+              <a href="https://rog.asus.com.cn/about-rog" target="blank" title="ROG"></a>
+            </li>
+
+            <li>
+              <!--rio-->
+              <a href="http://www.riowine.com/" target="blank" title="Rio"></a>
+            </li>
+
+            <li>
+              <!--港珠澳-->
+              <a title="广东泓盛建筑工程有限公司"></a>
+            </li>
+
+          </ul>
+        </div>
+        <div class="footer-normal">
+          <span>Thank you for seeing this to the end</span>
+          <ul class="footer-nav">
+            <ul class="footer-nav">
+              <li @mouseenter="activeIndex=1" @mouseleave="activeIndex=0">
+                <!--weibo-->
+                <a href="https://weibo.com/brecen" target="_blank">
+                  <img :src="'img/ICON/1_weibo'+(activeIndex==1?' copy':'')+'.svg'" alt="">
+                </a>
+              </li>
+  
+              <li @mouseenter="activeIndex=2" @mouseleave="activeIndex=0">
+                <!--wechatEmail-->
+                <a href="mailto:ybh@moqi.email" target="_blank" title="Email">
+                  <img :src="'img/ICON/2_wechat'+(activeIndex==2?' copy':'')+'.svg'" alt="">
+                </a>
+              </li>
+  
+              <li @mouseenter="activeIndex=3" @mouseleave="activeIndex=0">
+                <!--email-->
+                <a href="mailto:ybh@moqi.email" target="_blank" title="Email">
+                  <img :src="'img/ICON/3_email'+(activeIndex==3?' copy':'')+'.svg'" alt="">
+                </a>
+              </li>
+  
+              <li @mouseenter="activeIndex=4" @mouseleave="activeIndex=0">
+                <!--facebook-->
+                <a href="https://www.facebook.com/yubinghao135" target="_blank">
+                  <img :src="'img/ICON/4_facebook'+(activeIndex==4?' copy':'')+'.svg'" alt="">
+                </a>
+              </li>
+  
+              <li @mouseenter="activeIndex=5" @mouseleave="activeIndex=0">
+                <!--twitter-->
+                <a href="https://twitter.com/BrecenYu" target="_blank">
+                  <img :src="'img/ICON/5_twitter'+(activeIndex==5?' copy':'')+'.svg'" alt="">
+                </a>
+            </ul>
+          </ul>
+
+        </div><span class="end-text"><a href="http://beian.miit.gov.cn/" style="display:inline;">蜀ICP备2020029164号 </a>   Content is for display only, the copyright belongs to the individual, the content part of the website is the work of the team</span>
+      </footer>
+    </div>
+  </template>
+  <script>
+    // 在 #app 标签下渲染一个按钮组件
+    new Vue({
+      el: '#app',
+      template: "#details",
+      data() {
+        return {
+activeIndex:0
+        }
+      },
+      methods: {
+        //轮播图切换
+        onChange(e) {
+          this.indexes = e.currentTarget.dataset.index
+          if (this.indexes == '0') {
+            if (this.$refs.swiper.active) {
+              this.$refs.swiper.swipeTo(this.$refs.swiper.active - 1);
+            } else {
+              this.$refs.swiper.swipeTo(this.$refs.swiper.children.length - 1)
+            }
+          } else {
+            if (this.$refs.swiper.active < this.$refs.swiper.children.length - 1) {
+              this.$refs.swiper.swipeTo(this.$refs.swiper.active + 1);
+            } else {
+              this.$refs.swiper.swipeTo(0)
+            }
+          }
+
+
+        }
+      }
+    });
+
+    // 调用函数组件，弹出一个 Toast
+
+    // 通过 CDN 引入时不会自动注册 Lazyload 组件
+    // 可以通过下面的方式手动注册
+    Vue.use(vant.Swipe);
+    Vue.use(vant.SwipeItem);
+  </script>
+</body>
+
+</html>
