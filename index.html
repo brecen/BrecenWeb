@@ -41,11 +41,11 @@
 
 
             <li>
-              <span class="head-nav-title">Home</span>
+              <a href="#"><span class="head-nav-title">Home</span></a>
             </li>
 
             <li>
-              <span class="head-nav-title">Works</span>
+              <a href="blog/blog.html"><span class="head-nav-title">Works</span></a>
             </li>
 
             <li>
@@ -219,14 +219,15 @@
                   <img :src="'img/ICON/1_weibo'+(activeIndex==1?' copy':'')+'.svg'" alt="">
                 </a>
               </li>
-  
+              <!--
               <li @mouseenter="activeIndex=2" @mouseleave="activeIndex=0">
-                <!--wechatEmail-->
+                
                 <a href="mailto:ybh@moqi.email" target="_blank" title="Email">
                   <img :src="'img/ICON/2_wechat'+(activeIndex==2?' copy':'')+'.svg'" alt="">
                 </a>
               </li>
-  
+              -->
+              
               <li @mouseenter="activeIndex=3" @mouseleave="activeIndex=0">
                 <!--email-->
                 <a href="mailto:ybh@moqi.email" target="_blank" title="Email">
